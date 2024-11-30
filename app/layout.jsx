@@ -1,5 +1,16 @@
-import localFont from "next/font/local";
+import {Rubik} from 'next/font/google';
+import localFont from 'next/font/local'; 
 import "./globals.css";
+
+//components.......
+import Navbar from './navbar/page'
+
+const rubik_init = Rubik({
+  subsets: ['latin'],
+  weight: ["300","500","700","400"],
+  variable: '--font-rubik',
+
+})
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -21,12 +32,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <nav>
-            <h1>Sample Helpdesk</h1>
-          </nav>
+        className={`${rubik_init.variable} ${rubik_init.variable} antialiased`}>
+          <Navbar />
         {children}
-        <footer>Copyrights@2024</footer>
       </body>
     </html>
   );
