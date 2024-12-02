@@ -16,7 +16,7 @@ const page = () => {
         <Link href="/"><h1>Helpdesk</h1></Link>
         <Link href="/" >Dashboard</Link><br />
         <Link href="/tickets">Tickets</Link>
-        <Link href="/news">News</Link>
+        {/* <Link href="/news">News</Link> */}
     </nav>
   )
 }
