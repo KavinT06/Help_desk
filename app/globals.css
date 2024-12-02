@@ -98,7 +98,7 @@ form button {
 }
 
 /* pill styles */
-.pill {
+/* .pill {
   @apply py-1 px-2 mt-3 inline-block text-xs font-semibold;
 }
 
@@ -116,4 +116,5 @@ form button {
 
 .card .pill {
   @apply absolute bottom-0 right-0 rounded-tl-md;
-}
+} */
+
