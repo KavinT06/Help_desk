@@ -1,7 +1,13 @@
 import React from 'react'
 
-export default function TicketDetails() {
+export default function TicketDetails({ params }) {
+
+  const id = params.id;
+
   return (
-    <div>TicketDetails</div>
+    <div>
+      <h1>TicketDetails</h1>
+      <p>{id}</p>
+    </div>
   )
 }
