@@ -8,6 +8,7 @@ export default function TicketDetails({ params }) {
     <div>
       <h1>TicketDetails</h1>
       <p>{id}</p>
+      <p>check msg!</p>
     </div>
   )
 }
