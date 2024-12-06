@@ -9,6 +9,7 @@ export default function TicketDetails({ params }) {
       <h1>TicketDetails</h1>
       <p>{id}</p>
       <p>check msg!</p>
+      <p>lorem`</p>
     </div>
   )
 }
